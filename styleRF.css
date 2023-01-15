@@ -79,9 +79,15 @@ article button{
     font-weight: 600;
     font-size: 15px;
 }
-article .link1{
-   padding-left: 40px;
-}
-article .link2{
-    margin-left: 170px;
+
+
+@media all and (max-width: 600px){
+    section{
+        background-color: yellow;
+        width: 75%;
+        margin: 40px auto;
+        border-radius: 4px;
+        border: 5px solid white;
+    }
+    
 }
