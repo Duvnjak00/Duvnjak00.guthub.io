@@ -1,0 +1,87 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(fast_food.jpg);
+    padding: 0;
+    margin: 0;
+}
+section{
+    background-color: yellow;
+    width: 40%;
+    margin: 40px auto;
+    border-radius: 4px;
+    border: 5px solid white;
+}
+article div{
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+article label{
+    margin-left: 40px;
+    color: rgb(0, 0, 22);
+}
+article input{
+    width: 85%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 40px;
+    box-sizing: none;
+    background: yellow;
+    border: none;
+    font-size: medium;
+    border-bottom: 1px solid rgb(1, 1, 51);
+}
+::placeholder{
+    color: rgb(167, 167, 22);
+}
+article h1{
+    padding-top: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+article sup{
+    color: red;
+}
+article #male{
+    width: 15px;
+}
+article .man{
+    margin-left: 0;
+    font-family: sans-serif;
+}
+article #female{
+    width: 15px;
+    margin-left: 10px;
+}
+article .woman{
+    margin-left: 0;
+    font-family: sans-serif;
+}
+article .radio{
+    padding-bottom: 30px ;
+}
+article #checkbox{
+    width: 15px;
+}
+article .checkbox{
+    margin-left: 0;
+    color: rgb(1, 1, 51);
+    font-family: sans-serif;
+}
+article .login{
+    margin: 40px 40px 15px 40px;
+    padding-bottom: 30px;
+}
+article button{
+    padding: 15px 195px 15px 205px;
+    border: none;
+    border-radius: 4px;
+    background:rgb(161, 161, 8);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+article .link1{
+   padding-left: 40px;
+}
+article .link2{
+    margin: 0 0 0 100px;
+}

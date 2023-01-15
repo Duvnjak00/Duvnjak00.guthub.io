@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./styleRF.css">
+
+</head>
+
+<body>
+    <section>
+        <article>
+            <form action ="" method="GET">
+                <div>
+                    <h1>Login<span style="color: red; font-size: 20px;">*</span></h1>
+                </div>
+    
+                <div>
+                    <label for="uname">Username<span style="color: red; font-size: 20px;">*</span></label>
+                    <input type="text" id="uname" placeholder="Enter username" pattern="(?=.*[A-Z])(?=.*[a-z].(6,)" title="Minimum 6 characters" required>
+                </div>
+    
+                <div>
+                    <label for="pword">Password<span style="color: red; font-size: 20px;">*</span></label>
+                    <input type="password" id="pword" placeholder="Enter password" pattern="(?=.*[a-z])(?=.*[0-9].(8,)" title="Minimum 8 characters" required>
+                </div>
+
+                <div class="login">
+                    <button>SignIp</button>
+                </div>
+                <div >
+                    <a class="link1" href="#">Zaboravili ste lozinku?</a>
+                    <a class="link2" href="./RegistrationForm">Niste prijavljeni na sustav?</a>
+                </div>
+            </form>
+        </article>
+    </section>
+
+    
+</body>
+</html>
